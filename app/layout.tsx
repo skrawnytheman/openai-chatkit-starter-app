@@ -5,6 +5,31 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AgentKit demo",
   description: "Demo of ChatKit with hosted workflow",
+  applicationName: "AgentKit demo",
+  manifest: "/manifest.webmanifest",
+  themeColor: "#0E63FF",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      {
+        url: "/icons/icon-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/icons/icon-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/icons/icon-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

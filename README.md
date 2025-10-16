@@ -65,6 +65,10 @@ Before deploying your app, you need to verify the domain by adding it to the [Do
 - Adjust starter prompts, greeting text, [chatkit theme](https://chatkit.studio/playground), and placeholder copy in [`lib/config.ts`](lib/config.ts).
 - Update the event handlers inside [`components/.tsx`](components/ChatKitPanel.tsx) to integrate with your product analytics or storage.
 
+## Progressive Web App
+
+This project includes an installable PWA configuration. Build the app (`npm run build && npm run start`) or deploy it over HTTPS, then use your browser's install button to add it to your device. Update the icons in [`public/icons`](public/icons) and colors within [`app/manifest.ts`](app/manifest.ts) or [`app/layout.tsx`](app/layout.tsx) to match your brand.
+
 ## References
 
 - [ChatKit JavaScript Library](http://openai.github.io/chatkit-js/)
